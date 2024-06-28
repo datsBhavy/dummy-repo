@@ -9,7 +9,7 @@ env:
   ECR_REPOSITORY: nodejs-app           
   ECS_SERVICE: nodejs-app-service                
   ECS_CLUSTER: workflow-cluster                
-  ECS_TASK_DEFINITION: nodejs-app-task-definition                                             
+  ECS_TASK_DEFINITION: nodejs-app-task-definition.json                                         
   CONTAINER_NAME: nodejs-app           
                                               
 jobs:
